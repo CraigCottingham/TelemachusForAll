@@ -1,7 +1,7 @@
 release: make_release_zip
 
 clean:
-	rm -fv TelemachusForAll-0.1.1.zip
+	rm -fv TelemachusForAll-*.zip
 	rm -rfv build
 
 get_mini_avc: make_build_dir
