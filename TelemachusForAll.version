@@ -1,0 +1,31 @@
+{
+  "NAME": "TelemachusForAll",
+  "URL": "https://github.com/CraigCottingham/TelemachusForAll/blob/master/TelemachusForAll.version",
+  "DOWNLOAD": "https://github.com/CraigCottingham/TelemachusForAll/releases/latest",
+  "GITHUB": {
+    "USERNAME": "CraigCottingham",
+    "REPOSITORY": "TelemachusForAll",
+    "ALLOW_PRE_RELEASE": false
+  },
+  "VERSION": {
+    "MAJOR": 0,
+    "MINOR": 1,
+    "PATCH": 0,
+    "BUILD": 1
+  },
+  "KSP_VERSION": {
+    "MAJOR": 1,
+    "MINOR": 8,
+    "PATCH": 1
+  },
+  "KSP_VERSION_MIN": {
+    "MAJOR": 1,
+    "MINOR": 5,
+    "PATCH": 1
+  }
+  "KSP_VERSION_MAX": {
+    "MAJOR": 1,
+    "MINOR": 8,
+    "PATCH": 99
+  }
+}
