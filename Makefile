@@ -25,6 +25,6 @@ make_source_tarball:
 	tar -c -v -f TelemachusForAll-0.1.0.source.tar.gz -z --exclude "*.zip" --exclude "*.tar.gz" *
 
 make_source_zip:
-	zip -r -x "*.zip" -x "*.tar.gz" TelemachusForAll-0.1.0.source.zip *
+	zip -r TelemachusForAll-0.1.0.source.zip * -x \*.zip \*.tar.gz
 
 .PHONY: clean get_mini_avc make_build_dir make_release_zip make_source_zip release
