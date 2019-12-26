@@ -1,6 +1,8 @@
 release: make_source_zip make_source_tarball make_release_zip
 
 clean:
+	rm -fv TelemachusForAll-0.1.0.source.tar.gz
+	rm -fv TelemachusForAll-0.1.0.source.zip
 	rm -fv TelemachusForAll-0.1.0.zip
 	rm -rfv build
 
