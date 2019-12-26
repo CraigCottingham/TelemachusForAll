@@ -1,7 +1,7 @@
 release: make_release_zip
 
 clean:
-	rm -fv TelemachusForAll-0.1.0.zip
+	rm -fv TelemachusForAll-0.1.1.zip
 	rm -rfv build
 
 get_mini_avc: make_build_dir
@@ -19,6 +19,6 @@ make_build_dir:
 make_release_zip: make_build_dir get_mini_avc
 	cp -v GameData/TelemachusForAll/* build/GameData/TelemachusForAll/
 	cp -v TelemachusForAll.version build/GameData/TelemachusForAll/
-	cd build && zip -rm ../TelemachusForAll-0.1.0.zip *
+	cd build && zip -rm ../TelemachusForAll-0.1.1.zip *
 
 .PHONY: clean get_mini_avc make_build_dir make_release_zip make_source_zip release
